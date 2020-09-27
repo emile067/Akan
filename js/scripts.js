@@ -2,6 +2,7 @@ function submit() {
   var g= document.querySelector("input[name='gender']:checked").value;
   var day = new Date(document.getElementById("bday").value);
   var d = day.getDay();
+  var m= day.getMonth();
   var maleNames=['Kwasi',"Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   var femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
   var weekday = new Array(7);
@@ -13,6 +14,11 @@ function submit() {
   weekday[5] = "Friday";
   weekday[6] = "Saturday";
   var n=0;
+  if (d<=0 || d>31) {
+    document.getElementById("output").innerHTML= 'Invalid date input, please try again.'
+  } else if(m>12 || m<=0){
+    document.getElementById("output").innerHTML= 'Invalid month input, please try again.'
+  }
   while (n<7) {
     n=n+1;
   }
