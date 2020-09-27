@@ -12,4 +12,8 @@ function submit() {
   weekday[4] = "Thursday";
   weekday[5] = "Friday";
   weekday[6] = "Saturday";
+  var n=0;
+  while (n<7) {
+    n=n+1;
+  }
 }
