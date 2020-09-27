@@ -19,7 +19,11 @@ function submit() {
   } else if(m>12 || m<=0){
     document.getElementById("output").innerHTML= 'Invalid month input, please try again.'
   }
+  // the previous step wasn't needed for it's made not possible to input no related info or skip.
   while (n<7) {
+    if(g=='Male' && n==d){
+      document.getElementById("output").innerHTML= maleNames[n] + ' is your Akan name for you were born on a '+ weekday[n];
+    }
     n=n+1;
   }
 }
