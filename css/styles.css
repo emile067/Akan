@@ -10,3 +10,10 @@ body{
   width: auto;
   margin: 20px;
 }
+.hlight{
+  color: rgb(78, 58, 1);
+}
+#output{
+  color: rgb(39, 29, 1);
+  font-size: x-large;
+}
