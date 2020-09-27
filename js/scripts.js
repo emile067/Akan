@@ -29,3 +29,6 @@ function submit() {
     n=n+1;
   }
 }
+function reset() {
+  document.getElementById("")
+}
