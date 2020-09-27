@@ -23,6 +23,8 @@ function submit() {
   while (n<7) {
     if(g=='Male' && n==d){
       document.getElementById("output").innerHTML= maleNames[n] + ' is your Akan name for you were born on a '+ weekday[n];
+    }else if (g=='Female' && n==d) {
+      document.getElementById("output").innerHTML= femaleNames[n] + ' is your Akan name for you were born on a '+ weekday[n];
     }
     n=n+1;
   }
