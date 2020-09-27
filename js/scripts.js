@@ -22,13 +22,10 @@ function submit() {
   // the previous step wasn't needed for it's made not possible to input no related info or skip.
   while (n<7) {
     if(g=='Male' && n==d){
-      document.getElementById("output").innerHTML= maleNames[n] + ' is your Akan name for you were born on a '+ weekday[n];
+      document.getElementById("output").innerHTML= weekday[n] + '. ' + maleNames[n] + ' is your Akan name';
     }else if (g=='Female' && n==d) {
-      document.getElementById("output").innerHTML= femaleNames[n] + ' is your Akan name for you were born on a '+ weekday[n];
+      document.getElementById("output").innerHTML= weekday[n] + '. ' + femaleNames[n] + ' is your Akan name';
     }
     n=n+1;
   }
-}
-function reset() {
-  document.getElementById("")
 }

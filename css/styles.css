@@ -1,5 +1,6 @@
 body{
-  background-color: rgb(241, 224, 191);
+  background-color: #5ca0f2;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
 }
 .box{
   width: auto;
@@ -7,13 +8,18 @@ body{
   margin: 20px;  
 }
 .box1{
-  width: auto;
-  margin: 20px;
+  padding: 25px;
 }
 .hlight{
-  color: rgb(78, 58, 1);
+  color: rgb(29, 24, 11);
 }
 #output{
-  color: rgb(39, 29, 1);
-  font-size: x-large;
+  color: rgb(138, 60, 24);
+  font-size: 30px;
+}
+.bg-back{
+  background-color: rgb(198, 221, 226);
+}
+.height1{
+  height: 60%;
 }
